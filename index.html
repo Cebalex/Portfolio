@@ -1,107 +1,94 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>TXT by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+<head>
+	<title>TXT by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		#lang-select {
+			position: fixed;
+			top: 10px;
+			right: 10px;
+			z-index: 9999;
+			padding: 5px;
+			border-radius: 6px;
+		}
+	</style>
+</head>
+<body class="homepage is-preload">
+	<div id="page-wrapper">
 
-			<!-- Nav -->
-				<nav id="nav">
+		<!-- Language Selector -->
+		<select id="lang-select">
+			<option value="en">English</option>
+			<option value="es">Español</option>
+		</select>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li class="current"><a href="index.html" data-translate="home"></a></li>
+				<li>
+					<a href="Games.html" data-translate="games"></a>
 					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<li>
-							
-							<a href="Games.html">Games</a>
-							<ul>
-								<li><a href="Numbra.html">Numbra</a></li>
-								<li><a href="CrashNBurn.html">Crash N Burn</a></li>
-								<li><a href="AnimaSilvarum.html">Anima Silvarum</a></li>
-								<li><a href="AntSquad.html">Ant Squad</a></li>
-								<li><a href="Ithangi.html">Ithangi</a></li>
-								<li><a href="PopThePops.html">Pop the Pops</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="Projects.html">Projects</a>
-							<ul>
-								<li><a href="GOAP.html">GOAP algorithm</a></li>
-								<li><a href="ContextBasedSteering.html">Context Based Steering</a></li>
-								<li><a href="BezierCurves.html">Bezier Curves: Motion along a curve</a></li>
-							</ul>
-						</li>
-						<li><a href="Contact.html">Contact</a></li>
+						<li><a href="Numbra.html">Numbra</a></li>
+						<li><a href="CrashNBurn.html">Crash N Burn</a></li>
+						<li><a href="AnimaSilvarum.html">Anima Silvarum</a></li>
+						<li><a href="AntSquad.html">Ant Squad</a></li>
+						<li><a href="Ithangi.html">Ithangi</a></li>
+						<li><a href="PopThePops.html">Pop the Pops</a></li>
 					</ul>
-				</nav>
+				</li>
+				<li>
+					<a href="Projects.html" data-translate="projects"></a>
+					<ul>
+						<li><a href="GOAP.html">GOAP algorithm</a></li>
+						<li><a href="ContextBasedSteering.html">Context Based Steering</a></li>
+						<li><a href="BezierCurves.html">Bezier Curves: Motion along a curve</a></li>
+					</ul>
+				</li>
+				<li><a href="Contact.html" data-translate="contact"></a></li>
+			</ul>
+		</nav>
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<h2>Alex Ceberio Hernandez</h2>
-						<p>RTIS programmer and Game Developer</p>
-					</div>
-				</section>
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<h2 data-translate="name"></h2>
+				<p data-translate="subtitle"></p>
+			</div>
+		</section>
 
-			<!-- Main -->
-				<section id="main">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-12">
+		<!-- Main -->
+		<section id="main">
+			<div class="container">
+				<div class="row gtr-200">
+					<div class="col-12">
 
-								<!-- Features -->
-									<section class="box features">
-										<h2 class="major"><span>About me</span></h2>
-										<div>
-											Hi, my name is Alex. I'm a C++ programmer, with focus on Game programming, tools development and AI 
-											development for games.<br> <br> Here you can find all the projects and games I have worked at at the 
-											moment.
-
-										</div>
+						<!-- Features -->
+						<section class="box features">
+							<h2 class="major"><span data-translate="about"></span></h2>
+							<div data-translate="about_text">
 							</div>
-						</div>
+						</section>
 					</div>
-				</section>
+				</div>
+			</div>
+		</section>
 
-			<!-- Footer 
-				<footer id="footer">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-12">
+	</div>
 
-								 Contact 
-									<section>
-										<h2 class="major"><span>Get in touch</span></h2>
-										<ul class="contact">
-											<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
-										</ul>
-									</section>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/lang.js"></script>
 
-							</div>
-						</div>
 
-						 Copyright
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; Alex Ceberio Hernandez. All rights reserved
-								</ul>
-							</div> -->
-
-					</div>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>

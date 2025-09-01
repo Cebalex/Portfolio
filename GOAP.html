@@ -5,9 +5,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		#lang-select {
+			position: fixed;
+			top: 10px;
+			right: 10px;
+			z-index: 9999;
+			padding: 5px;
+			border-radius: 6px;
+		}
+	</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
+
+		<!-- Language Selector -->
+		<select id="lang-select">
+			<option value="en">English</option>
+			<option value="es">Español</option>
+		</select>
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -53,17 +69,24 @@
 											<section>
 												<span class="image featured"><img src="images/GOAP.png" alt="" /></span>
 												<p>
-													
+													Goal-Oriented-Action-Planning (GOAP for short) is a declarative game AI architecture created by 
+													Jeff Orkin for the game F.E.A.R, designed for real-time control of autonomous character behavior in games.
+													Compared with simpler architectures such as State Machines or Behaviour Trees, GOAP provides far
+													better code scalability and flexibility while on development, avoiding the labyrinthic transitions
+													that can end up being generated. This architecture gives game characters the ability to select
+													goals and make plans to achieve those goals based on the state of the environment and available
+													resources.
 												</p>
-											</section>
-											<!--
-											<section>
-												<h3>Project information</h3>
 												<p>
-													<p><a href="">Link to the game page</a></p>
+													This was the topic I chose for the final project of CS380 (a course focused on AI development for videogames), 
+													where I researched the algorithm and made a demo implementing the algorithm, written in C++ from scratch. 
+												    The demo has 3 different agents (a rabbit, wolf and bear), where each will try to survive by escaping, searching food 
+													or fighting, and satisfy their goals.
 												</p>
-											</section>
-											 -->
+													You can download the reseach paper <a href="assets/380_GOAP-ResearchPaper.pdf">here</a>.</p>						
+												</p>
+
+
 										</article>
 								</div>
 							</div>
@@ -81,6 +104,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lang.js"></script>
 
 	</body>
 </html>

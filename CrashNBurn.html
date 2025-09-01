@@ -5,9 +5,26 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		#lang-select {
+			position: fixed;
+			top: 10px;
+			right: 10px;
+			z-index: 9999;
+			padding: 5px;
+			border-radius: 6px;
+		}
+	</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
+
+		<!-- Language Selector -->
+		<select id="lang-select">
+			<option value="en">English</option>
+			<option value="es">Español</option>
+		</select>
+
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -93,6 +110,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lang.js"></script>
 
 	</body>
 </html>

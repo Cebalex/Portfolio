@@ -5,9 +5,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		#lang-select {
+			position: fixed;
+			top: 10px;
+			right: 10px;
+			z-index: 9999;
+			padding: 5px;
+			border-radius: 6px;
+		}
+	</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
+
+		<!-- Language Selector -->
+		<select id="lang-select">
+			<option value="en">English</option>
+			<option value="es">Español</option>
+		</select>
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -53,17 +69,40 @@
 											<section>
 												<span class="image featured"><img src="images/.png" alt="" /></span>
 												<p>
-													
+													As part of one of my student games, <a href="CrashNBurn.html">CrashNBurn</a>, I was tasked with
+													making the AI for the rivals you would race against, and the algorithm I chose to implement
+													for this task is called Context Based Steering.
+
 												</p>
-											</section>
-											<!--
-											<section>
-												<h3>Project information</h3>
 												<p>
-													<p><a href="">Link to the game page</a></p>
+													<h4>The algoritm</h4>
+												</p>
+												<p>
+													 First, our agent (in my case the rival racers) will 
+													 have a list of possible directions all around its body, like it looks in the following 
+													 picture. Those directions will represent the agent’s interests (the way to the goal), 
+													 as well as dangers (walls, obstacles, other players...), and are what will define the context of 
+													 the AI’s environment and decide what direction to choose. Internally, this is 
+													 represented as an array of custom directions, which will store the direction vector, 
+													 its interest factor, if there’s a danger, and the danger factor, to know how close the 
+													 danger is. 
+													 <br>
+													 To compute the interest factor, the agent first checks what the desired 
+													 direction it wants to go is at the point of the track it is. Then, the dot product 
+													 between the desired direction and each of the agents surrounding directions is 
+													 computed and clamped between 0 and 1, and this will be our value. To compute 
+													 the danger factor, we do a ray cast from the position of the agent to all its 
+													 directions. For each ray, we store if a collision is detected with an obstacle, and its 
+													 minimum intersect time, in case multiple are detected. This value will also be 
+													 clamped between 0 and 1, depending on a defined danger distance. 
+													 <br>
+													 Finally, to decide the final direction, we reduce each ray’s interest by multiplying it with its 
+													 danger factor if the was a collision in that direction, we sum all the direction 
+													 vectors multiplied by their corresponding interest factor and we normalize the 
+													 resulting vector. 
 												</p>
 											</section>
-											 -->
+
 										</article>
 								</div>
 							</div>
@@ -81,6 +120,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lang.js"></script>
 
 	</body>
 </html>

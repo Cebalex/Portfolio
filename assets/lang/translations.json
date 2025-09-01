@@ -1,0 +1,22 @@
+{
+  "en": {
+    "home": "Home",
+    "games": "Games",
+    "projects": "Projects",
+    "contact": "Contact",
+    "name": "Alex Ceberio Hernandez",
+    "subtitle": "RTIS programmer and Game Developer",
+    "about": "About me",
+    "about_text": "Hi, my name is Alex. I'm a C++ programmer, with focus on Game programming, tools development and AI development for games.<br><br>Here you can find all the projects and games I have worked at at the moment."
+  },
+  "es": {
+    "home": "Inicio",
+    "games": "Juegos",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "name": "Alex Ceberio Hernández",
+    "subtitle": "Programador RTIS y Desarrollador de Juegos",
+    "about": "Sobre mí",
+    "about_text": "Hola, me llamo Alex. Soy programador de C++ especializado en programación de videojuegos, desarrollo de herramientas y desarrollo de IA para juegos.<br><br>Aquí puedes encontrar todos los proyectos y juegos en los que he trabajado hasta el momento."
+  }
+}

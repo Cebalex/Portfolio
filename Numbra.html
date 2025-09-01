@@ -5,9 +5,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		#lang-select {
+			position: fixed;
+			top: 10px;
+			right: 10px;
+			z-index: 9999;
+			padding: 5px;
+			border-radius: 6px;
+		}
+	</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
+
+		<!-- Language Selector -->
+		<select id="lang-select">
+			<option value="en">English</option>
+			<option value="es">Español</option>
+		</select>
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -47,7 +63,7 @@
 										<article class="box page-content">
 
 											<header>
-												<h2>Work in progress</h2>
+												<h2>Numbra</h2>
 											</header>
 
 											<section>
@@ -55,15 +71,26 @@
 												<p>
 													
 												</p>
-											</section>
-											<!--
 											<section>
-												<h3>Project information</h3>
+												<span class="image featured"><img src="images/Numbra.png" alt="" /></span>
 												<p>
-													<p><a href="">Link to the game page</a></p>
+													In a desolate and ominous world, a young girl faces dark creatures that lurk in every shadow. 
+													With each step, the danger grows. But there is only one rule: stay awake.
 												</p>
+
+												<strong>Release Date:</strong> 31 May 2025 <br> 
+												<strong>Team Size:</strong> 5 programmers, 7 artists <br> 
+												<strong>Language:</strong> UE blueprints <br> 
+												<strong>Engine:</strong> Unreal Engine 5 <br> 
+												<p><a href="https://store.steampowered.com/app/3638410/Numbra/">Download</a></p>
+
+												<h4>My Role</h4>
+												I worked for this game at my forth year at DigiPen, with the role of Gameplay programmer. 
+												My most relevant taks I worked on where all the enemies in the game, from which I used and learned 
+												a good variety of tools Unreal Engine provides, such as their AI system with behaviour trees, level sequences and  
+												state machies for the animations.
+
 											</section>
-											 -->
 										</article>
 								</div>
 							</div>
@@ -81,6 +108,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lang.js"></script>
 
 	</body>
 </html>
