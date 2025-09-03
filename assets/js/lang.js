@@ -9,9 +9,12 @@ async function loadTranslations(lang) {
 
     if (translations[lang]) {
       elements.forEach(el => {
+        const type = el.getAttribute("data-type") || "default";
         const key = el.getAttribute("data-translate");
-        if (translations[lang][key]) {
-          el.innerHTML = translations[lang][key];
+
+        // Nested lookup
+        if (translations[lang][type] && translations[lang][type][key]) {
+          el.innerHTML = translations[lang][type][key];
         }
       });
     }
