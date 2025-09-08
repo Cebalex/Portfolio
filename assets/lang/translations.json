@@ -10,7 +10,7 @@
       "name": "Alex Ceberio Hernandez",
       "subtitle": "RTIS programmer and Game Developer",
       "about": "About me",
-      "about_text": "Hi, my name is Alex. I'm a C++ programmer, with focus on Game programming, tools development and AI development for games.<br><br>Here you can find all the projects and games I have worked at at the moment."
+      "about_text": "Hi, my name is Alex. I'm a C++ programmer with a focus on game programming, tools development, and AI development for games. I graduated from DigiPen Institute of Technology Bilbao with a Bachelor's degree in Computer Science in Real-Time Interactive Simulations (RTIS).<br><br>In this page, you can explore the projects and games I’ve worked on."
     },
     "games_info": {
       "juegos_estudiante": "Student games",
@@ -52,13 +52,14 @@
       "rol": "I worked for this game at my second year at DigiPen, with the role of Gameplay programmer. The most relevant task I worked on where the following:",
       "rol1":"Implemented the collision and physics systems.",
       "rol2":"Created the level editor using ImGui and ImGuizmo, implementing the basics of object creation and deletion, component management, scene creation and loading, as well as many tools to help the artists better create levels, like ctrl z, vertex snapping or atlas loading.",
-      "rol3":"Implemented text rendering and translation tools, including managing fonts using non latin scrips.",
+      "rol3":"Implemented text rendering and translation tools, including managing characters not present on the english language.",
       "rol4":"For gameplay, I worked on the quest system, final boss, and UI work like the menus and game UI."
     },
     "numbra_data":{
       "motor": "Unreal Engine 5",
       "description" : "A 3D puzzle and exploration game, inspired by the likes of Little Nightmares or Inside.", 
-      "lore" :"In a desolate and ominous world, a young girl faces dark creatures that lurk in every shadow. With each step, the danger grows. But there is only one rule: stay awake."
+      "lore" :"In a desolate and ominous world, a young girl faces dark creatures that lurk in every shadow. With each step, the danger grows. But there is only one rule: stay awake.",
+      "rol":"I worked for this game at my forth year at DigiPen, with the role of Gameplay programmer. My most relevant taks I worked on where all the enemies in the game, from which I used and learned a good variety of tools Unreal Engine provides, such as their AI system with behaviour trees, level sequences and state machies for the animations."
     },
     "crashNBurn_data":{
       "motor": "3D game engine done from scratch in C++",
@@ -71,7 +72,7 @@
     },
     "antSquad_data":{
       "motor": "2D engine provided by DigiPen",
-      "description":"Ant Squad is a Top-down 2D reverse tower defence game where the player controls a nest of ants, and he has to send them throughout the map, so they reach to the end of the same. The player will have three different type of units and will be able to send them through three different paths. At the end of the map there is the final boss and alongside the three paths there are enemies to delay the advance of the player.",
+      "description":"Ant Squad is a Top-down 2D reverse tower defence game where the player controls a nest of ants, and he has to send them throughout the map, so they reach to the end of the enemy base. The player will have three different type of units and will be able to send them through three different paths. At the end of the map there is the final boss and alongside the three paths there are enemies to delay the advance of the player.",
       "rol":"This was my second game I worked on my first year at DigiPen, with the role of Game Programmer, altough I also worked a lot on the design of the game. The most relevant task I worked on where the following:",
       "rol1":"Design of the game mechanics and balancing the game economy system.",
       "rol2":"Programmed the power ups of the player.",
@@ -85,7 +86,7 @@
       "rol3":"Made the UI of the player and menus."
     },
     "popThePops_data":{
-      "motor": "A 2-player local versus 2.5D platformer (3D models with 2D gameplay mechanics), where you race to the goal while inside a bubble. It was made for 2025's Global Game Jam, made in less than 3 days, with the topic being \"Bubbles\", and it won the prize for the best user experience."
+      "description": "A 2-player local versus 2.5D platformer (3D models with 2D gameplay mechanics), where you race to the goal while inside a bubble. It was made for 2025's Global Game Jam, made in less than 3 days, with the topic being \"Bubbles\", and it won the prize for the best user experience."
     }
   },
   "es": {
@@ -99,7 +100,7 @@
       "name": "Alex Ceberio Hernández",
       "subtitle": "Programador RTIS y Desarrollador de Juegos",
       "about": "Sobre mí",
-      "about_text": "Hola, me llamo Alex. Soy programador de C++ especializado en programación de videojuegos, desarrollo de herramientas y desarrollo de IA para juegos.<br><br>Aquí puedes encontrar todos los proyectos y juegos en los que he trabajado hasta el momento."
+      "about_text": "Hola, me llamo Alex. Soy programador C++ con un enfoque en programación de videojuegos, desarrollo de herramientas y desarrollo de IA para juegos. Me gradué en DigiPen Institute of Technology Bilbao con el Grado en Informática en Simulaciones Interactivas en Tiempo Real (RTIS).<br><br>En esta página, puedes explorar los proyectos y videojuegos en los que he trabajado."
     },
     "games_info": {
       "juegos_estudiante": "Juegos de estudiante",
@@ -137,17 +138,18 @@
     },
     "animaSilvarum_data": {
       "motor": "2D programado desde cero en C++",
-      "description": "A 2D action-exploration adventure set in a colorful world full of mysteries and enigmatic secrets. Take control of Héctor, an apprentice scribe who is unexpectedly thrown into a criminal conspiracy involving robbery and a kidnapping. Investigate unexplored territories as you venture outside your village and into the uncharted realms beyond the forest. Defeat mysterious enemies, solve engaging puzzles, and recover what is yours by discovering the truth behind the crimes!",
-      "rol": "I worked for this game at my second year at DigiPen, with the role of Gameplay programmer. The most relevant task I worked on where the following:",
-      "rol1":"Implemented the collision and physics systems.",
-      "rol2":"Created the level editor using ImGui and ImGuizmo, implementing the basics of object creation and deletion, component management, scene creation and loading, as well as many tools to help the artists better create levels, like ctrl z, vertex snapping or atlas loading.",
-      "rol3":"Implemented text rendering and translation tools, including managing fonts using non latin scrips.",
-      "rol4":"For gameplay, I worked on the quest system, final boss, and UI work like the menus and game UI."
+      "description": "Una aventura de acción y exploración en 2D ambientada en un mundo colorido, lleno de misterios y secretos enigmáticos. Toma el control de Héctor, un aprendiz de escriba que es arrastrado inesperadamente a una conspiración criminal que involucra un robo y un secuestro. Investiga territorios inexplorados mientras te aventuras fuera de tu aldea y hacia los reinos desconocidos más allá del bosque. ¡Derrota a enemigos misteriosos, resuelve acertijos desafiantes y recupera lo que es tuyo descubriendo la verdad detrás de los crímenes!",
+      "rol": "Trabajé en este juego durante mi segundo año en DigiPen, con el rol de programador de jugabilidad. Las tareas más relevantes en las que trabajé fueron las siguientes:",
+      "rol1":"Implementé el sistema de colisiones y físicas.",
+      "rol2":"Creé el editor de niveles usando ImGui e ImGuizmo, implementando las herramientas básicas de creación y destrucción de objetos,controlador de componentes, creación y cargado de escenas, asi como otras herramientas para ayudar a los artistas en la creacion de niveles, como el ctrl z, vertex snapping o cargar atlases.",
+      "rol3":"Implementé herramientas de traducción y renderizado de texto, incluyendo la gestión de caracteres exclusivos no presentes en el inglés",
+      "rol4":"Tema gameplay, trabajé en el sistema de misiones, IA del jefe final, y todo el UI del menu y gameplay."
     },    
     "numbra_data":{
       "motor": "Unreal Engine 5",
-      "description" : "A 3D puzzle and exploration game, inspired by the likes of Little Nightmares or Inside.", 
-      "lore" :"In a desolate and ominous world, a young girl faces dark creatures that lurk in every shadow. With each step, the danger grows. But there is only one rule: stay awake."
+      "description" : "Un juego de exploración y puzzles en 3D, inspirado en juegos del estilo de Little Nightmares o Inside.", 
+      "lore" :"En un mundo desolado y ominoso, una joven enfrenta a criaturas oscuras que acechan en cada sombra. Con cada paso, el peligro aumenta. Pero solo hay una regla: mantenerse despierta.",
+       "rol":"Trabajé en este juego en mi cuarto año en DigiPen, con el rol de Gameplay Programmer. Mis tareas más relevantes fueron el desarrollo de todos los enemigos del juego, en lo cual utilicé y aprendí una buena variedad de herramientas que ofrece Unreal Engine, como su sistema de IA con Behaviour Trees, secuencias de nivel y máquinas de estados para las animaciones."
     },
     "crashNBurn_data":{
       "motor": "3D programado desde cero en C++",
@@ -160,13 +162,21 @@
     },
     "antSquad_data":{
       "motor": "2D proporcionado por DigiPen",
-      "description":"Ant Squad is a Top-down 2D reverse tower defence game where the player controls a nest of ants, and he has to send them throughout the map, so they reach to the end of the same. The player will have three different type of units and will be able to send them through three different paths. At the end of the map there is the final boss and alongside the three paths there are enemies to delay the advance of the player."
+      "description":"Ant Squad es un tower defense inverso top-down en 2D, donde el jugador controla un nido de hormigas y debe enviarlas a través del mapa para que lleguen hasta la base enemiga. El jugador tendrá tres tipos diferentes de unidades y podrá enviarlas por tres caminos distintos. Al final del mapa se encuentra el jefe final, y a lo largo de los tres caminos hay enemigos que intentarán retrasar el avance del jugador.",
+      "rol":"Este fue mi segundo juego en el que trabajé durante mi primer año en DigiPen, con el rol de Game Programmer, aunque también participé mucho en el diseño del juego. Las tareas más relevantes en las que trabajé fueron las siguientes:",
+      "rol1":"Diseñé las mecanicas del juego y balanceé el sistema de economia del juego.",
+      "rol2":"Programé los power ups del jugador.",
+      "rol3":"Creé el UI del jugador y unidades enemigas, asi como los botones de los menus y power ups."
     },
     "ithangi_data":{
-      "description":"The game is a 2D top-down shooter where you control a tank that will fight against other enemy tanks. There are 3 different levels, and the objective is unique to each one of them, as well as the terrains, which have unique mechanics. You can also play with a different tank depending on the level. The thematic of the game is based in battles of the second world war and their tanks."
+      "description":"Ithangi es un top-down shooter en 2D donde tendrás que combatir contra tanques enemigos con tu propio tanque. Tiene 3 niveles jugables, y el objetivo en cada uno será diferente, asi como el los terrenos, que tendrán mecánicas diferentes. Además, en cada nivel usaras un tanque diferente. El juego,sus niveles y tanques estan basados en batallas de la segunda guerra mundial.",
+      "rol":"Este fué el primer juego en el que trabaje en DigiPen, con el rol de Game Designer. Las tareas más relevantes en las que trabajé fueron las siguientes:",
+      "rol1":"Diseñé las mecánicas del juegos, los tipos de enemigos y el diseño de niveles.",
+      "rol2":"Programé el movimiento del tanque del jugador y las mecánicas principales, como el disparo y los power ups",
+      "rol3":"Creé el UI del player y los menus."
     },
     "popThePops_data":{
-      "motor": "A 2-player local versus 2.5D platformer (3D models with 2D gameplay mechanics), where you race to the goal while inside a bubble. It was made for 2025's Global Game Jam, made in less than 3 days, with the topic being \"Bubbles\", and it won the prize for the best user experience."
+      "description": "Un juego de plataformas 2.5D (modelos 3D con mecánicas de juego en 2D) para 2 jugadores en modo local, donde compites por llegar a la meta mientras estás dentro de una burbuja. Fue desarrollado para la Global Game Jam 2025 en menos de 3 días, con la temática \"Burbujas\", y ganó el premio a la mejor experiencia de usuario."
     }
   }
 }
