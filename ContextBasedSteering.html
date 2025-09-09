@@ -67,39 +67,48 @@
 											</header>
 
 											<section>
-												<span class="image featured"><img src="images/.png" alt="" /></span>
 												<p>
-													As part of one of my student games, <a href="CrashNBurn.html">CrashNBurn</a>, I was tasked with
-													making the AI for the rivals you would race against, and the algorithm I chose to implement
-													for this task is called Context Based Steering.
-
+													<span class="image featured"><img src="images/CBS.png" alt="" /></span>
+													<span data-translate="title1" data-type="CBS_data"></span>
+													<a href="CrashNBurn.html">CrashNBurn</a>
+													<span data-translate="title2" data-type="CBS_data"></span>
 												</p>
+													<h4 data-translate="algorithm" data-type="CBS_data"></h4>
 												<p>
-													<h4>The algoritm</h4>
+													<span data-translate="algorithm1" data-type="CBS_data"></span>
+													<br> 
+													<span data-translate="algorithm2" data-type="CBS_data"></span>
 												</p>
+													 <h4 data-translate="interest" data-type="CBS_data"></h4>
 												<p>
-													 First, our agent (in my case the rival racers) will 
-													 have a list of possible directions all around its body, like it looks in the following 
-													 picture. Those directions will represent the agent’s interests (the way to the goal), 
-													 as well as dangers (walls, obstacles, other players...), and are what will define the context of 
-													 the AI’s environment and decide what direction to choose. Internally, this is 
-													 represented as an array of custom directions, which will store the direction vector, 
-													 its interest factor, if there’s a danger, and the danger factor, to know how close the 
-													 danger is. 
+													<span data-translate="interest1" data-type="CBS_data"></span>
+													<br> 
+													<span data-translate="interest2" data-type="CBS_data"></span>
+												</p>
+													 <h4 data-translate="code" data-type="CBS_data"></h4>
+												<p>
+													<span data-translate="code1" data-type="CBS_data"></span>
+													 <br> <br> 
+													 <span class="image featured"><img src="images/code_vector.png" alt="" /></span>
+													 <span data-translate="code2" data-type="CBS_data"></span>
+													 <br> <br> 
+													 <span class="image featured"><img src="images/code_rays.png" alt="" /></span>
+													 <span data-translate="code3" data-type="CBS_data"></span>
+													 <br> 
+													 <span data-translate="code4" data-type="CBS_data"></span>
+													 <br> <br> 
+													 <span class="image featured"><img src="images/code_waypoints.png" alt="" /></span>
+													 <span data-translate="code5" data-type="CBS_data"></span>
 													 <br>
-													 To compute the interest factor, the agent first checks what the desired 
-													 direction it wants to go is at the point of the track it is. Then, the dot product 
-													 between the desired direction and each of the agents surrounding directions is 
-													 computed and clamped between 0 and 1, and this will be our value. To compute 
-													 the danger factor, we do a ray cast from the position of the agent to all its 
-													 directions. For each ray, we store if a collision is detected with an obstacle, and its 
-													 minimum intersect time, in case multiple are detected. This value will also be 
-													 clamped between 0 and 1, depending on a defined danger distance. 
-													 <br>
-													 Finally, to decide the final direction, we reduce each ray’s interest by multiplying it with its 
-													 danger factor if the was a collision in that direction, we sum all the direction 
-													 vectors multiplied by their corresponding interest factor and we normalize the 
-													 resulting vector. 
+													 <span data-translate="code6" data-type="CBS_data"></span>
+													 <br> <br> 
+													 <span class="image featured"><img src="images/code_interest.png" alt="" /></span>
+													 <span data-translate="code7" data-type="CBS_data"></span>
+													 <br> <br> 
+													 <span class="image featured"><img src="images/code_danger.png" alt="" /></span>													 
+													 <span data-translate="code8" data-type="CBS_data"></span>
+													 <br> <br> 
+													 <span class="image featured"><img src="images/code_direction.png" alt="" /></span>
 												</p>
 											</section>
 
