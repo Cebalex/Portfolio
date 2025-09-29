@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>No Sidebar - TXT by HTML5 UP</title>
+		<title>Contact</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -68,21 +68,22 @@
 												<form method="post" action="mailto:your-email@example.com" enctype="text/plain">
 													<div class="row gtr-50">
 														<div class="col-6 col-12-mobile">
-															<label for="name">Name</label>
-															<input type="text" name="name" id="name" placeholder="Your Name" required />
+															<label for="name" data-translate="name" data-type="contact_data"></label>
+															<input type="text" name="name" id="name" autocomplete="name" required />
+															
 														</div>
 														<div class="col-6 col-12-mobile">
-															<label for="email">Email</label>
-															<input type="email" name="email" id="email" placeholder="you@example.com" required />
+															<label for="email" >Email</label>
+															<input type="email" name="email" id="email" autocomplete="email" required />
 														</div>
 														<div class="col-12">
-															<label for="message">Additional Comments</label>
-															<textarea name="message" id="message" placeholder="Type your message here..." rows="6" required></textarea>
+															<label for="message" data-translate="comments" data-type="contact_data"></label>
+															<textarea name="message" id="message" rows="6" autocomplete="off" required></textarea>
 														</div>
 														<div class="col-12">
 															<ul class="actions">
-																<li><input type="submit" value="Send Message" class="primary" /></li>
-																<li><input type="reset" value="Clear" /></li>
+																<li><input type="submit" value="Send Message" data-translate="send" data-type="contact_data" class="primary" /></li>
+																<li><input type="reset"  value="Clear" data-translate="clear" data-type="contact_data"  /></li>
 															</ul>
 														</div>
 													</div>

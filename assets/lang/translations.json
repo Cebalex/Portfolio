@@ -112,6 +112,20 @@
       "code6":"As mentioned before, we get our desired direction by whathever method we are using. Since I already have manually added them for each waypoint, we get the direction for the one we are in. Remember that this vector should be normalized. Then for each ray, we compute the dot product between the desired direction and the ray's direction. We will clamp to remove negative values and store them. ",
       "code7":"Now we go to the danger function. We will go for each ray, checking if the ray intersects any wall. For the intersection test, I chose to do a 2D line-line check, since our ray will have a fixed length and turn into a line, and the walls are also lines with the waypoints method I have. This function will give us the intersection point in a range [0,1]. For each direction, you should also check the t values of the next neighbours (checking between 3 to 5 is enough) and get the smallest, so the AI does not ignore walls outside his waypoint.",
       "code8":"Finally, to decide the final direction, we reduce each ray’s interest by multiplying it with its danger value if there was a collision in that direction, we sum all the direction vectors multiplied by their corresponding interest value, and we normalize the resulting vector."
+    },
+    "bezier_data":{
+      "title":"This was the final project I worked on for my class of MAT300, focused on Bezier curves. The objective was to create a demo where you could create a path of piecewise bezier curves, and have an agent follow that path at a constant velocity. It consists on three parts: The Curve generation, Arc Lenght Calculation and Speed Control and Animations.",
+      "mathFoundation":"My contribution: The mathematical foundation.",
+      "math1":"I worked on the curve generation, focusing on constructing the curve for the actor to follow. Although we can technically do this with a simple, single Bezier curve, there is a better alternative for this: constructing multiple piecewise curves. This has the advantage of being able to define specific points for which the curve will pass, rather than having to move numerous points to achieve a decent curve at a particular part. Additionally, when moving a control point, the changes will only occur locally within 1-2 intervals, rather than affecting the entire curve, which could introduce unwanted changes.",
+      "math2":"To construct these piecewise curves, we use segments defined by 4 points each. The first and fourth points, the explicit control points, are the points from which the curve will pass and are also shared between neighbouring intervals. The second and third points, the implicit control points, serve to modify the shape of the curve.",
+      "math3":"However, a problem with using piecewise curves is that continuity is not guaranteed between each interval, which would defeat the whole purpose of this project. Fortunately, this has an easy solution, as having the last and first control points of neighboring intervals being collinear guarantees continuity. By enforcing this rule, we will have the full curve have no discontinuities at with the small tradeoff of reducing flexibility when editing the curve, as now each point modifies two intervals instead of one. This approach balances flexibility and stability, giving us smooth curves that are easy to edit."
+    },
+    "contact_data":{
+      "contact":"Contact",
+      "name":"name",
+      "comments":"Additional Comments",
+      "send":"Send message",
+      "clear":"clear"
     }
   },
   "es": {
@@ -227,7 +241,22 @@
     "code6": "Como se mencionó antes, obtenemos nuestra dirección deseada mediante el método que estemos usando. Como ya las añadí manualmente para cada waypoint , obtenemos la dirección del segmento en el que estamos. Recuerda que este vector debe estar normalizado. Luego, para cada rayo, calculamos el dot product entre la dirección deseada y la dirección del rayo. Lo limitamos para eliminar valores negativos y los almacenamos.",
     "code7": "Ahora vamos a la función de peligro. Iremos rayo por rayo, verificando si el rayo intersecta alguna pared. Para la prueba de intersección, elegí hacer una comprobación línea-línea en 2D, ya que nuestro rayo tendrá una longitud fija y se convertirá en una línea, y las paredes también son líneas con el método de puntos de control que tengo. Esta función nos dará el punto de intersección en un rango [0,1]. Para cada dirección, también deberías verificar los valores t de los siguientes vecinos (con comprobar los siguientes tres o cuatro vale) y obtener el más pequeño, para que la IA no ignore paredes fuera de su segmento.",
     "code8": "Finalmente, para decidir la dirección final, reducimos el interés de cada rayo multiplicándolo por su valor de peligro si hubo una colisión en esa dirección, sumamos todos los vectores de dirección multiplicados por su valor de interés correspondiente, y normalizamos el vector resultante."
-  }
+  },
+  "bezier_data":{
+    "title":"Este fue el proyecto final que realicé para mi clase de MAT300, enfocado en las curvas de Bézier. El objetivo era crear una demo en la que se pudiera construir un recorrido con curvas de Bézier por tramos, y que un agente lo siguiera a velocidad constante. El proyecto se divide en tres partes: generación de la curva, cálculo de la longitud de arco y control de velocidad y animaciones.",
+    "mathFoundation":"Mi aporte: la base matemática.",
+    "math1":"Me encargué de la generación de la curva, enfocándome en construir el camino que el agente seguiría. Aunque se podría hacer con una única curva de Bézier, existe una alternativa más eficiente: usar varias curvas por tramos. Esto permite definir puntos específicos por donde debe pasar la curva, en lugar de mover muchos puntos para ajustar una sola. Además, al mover un punto de control, los cambios se mantienen locales dentro de 1 o 2 intervalos, evitando alterar toda la curva y generando modificaciones no deseadas.",
+    "math2":"Para construir estas curvas por tramos, se utilizan segmentos definidos por 4 puntos cada uno. El primero y el cuarto son los puntos de control explícitos: determinan por dónde pasará la curva y se comparten con los intervalos vecinos. El segundo y el tercero son puntos de control implícitos: sirven para dar forma a la curva.",
+    "math3":"Un problema que se tiene al trabajar con curvas por tramos es que la continuidad no está garantizada entre cada intervalo, lo que iría en contra del propósito del proyecto. La solución es sencilla: si el último y el primer punto de control de intervalos consecutivos son colineales, se asegura la continuidad. Con esta regla, obtenemos una curva continua y fluida, aunque con la pequeña desventaja de que cada punto afecta a dos intervalos en lugar de uno. Este enfoque logra un equilibrio entre flexibilidad y estabilidad, produciendo curvas suaves y fáciles de editar."
+  },
+    "contact_data":{
+      "contact":"Contacto",
+      "name":"nombre",
+      "comments":"Comentarios adicionales",
+      "send":"Enviar mensaje",
+      "clear":"Limpiar"
+    }
+
 
   }
 }
