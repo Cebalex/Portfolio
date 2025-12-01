@@ -15,6 +15,8 @@
     "games_info": {
       "juegos_estudiante": "Student games",
       "proyectos_estudiante" : "Student projects",
+      "juegos_profesionales": "Professional",
+      "polloXLaPasta":"A simple strategy game for one player, based on the animated series of Calico Electronico, featuring Don Ramon and Perchita.",
       "numbra":"A 3D puzzle and exploration game, where you travel a mysterious world and avoid being seen by the various enemies that will try to hunt you.",
       "crashNBurn":"Low poly space-themed racing game with highly customizable ships that provide you with different tools to hamper your rivals’ progress or gain a more direct advantage yourself.",
       "animaSilvarum":"A 2D action-exploration adventure set in a colorful world full of mysteries and enigmatic secrets.",
@@ -54,6 +56,10 @@
       "rol2":"Created the level editor using ImGui and ImGuizmo, implementing the basics of object creation and deletion, component management, scene creation and loading, as well as many tools to help the artists better create levels, like ctrl z, vertex snapping or atlas loading.",
       "rol3":"Implemented text rendering and translation tools, including managing characters not present on the english language.",
       "rol4":"For gameplay, I worked on the quest system, final boss, and UI work like the menus and game UI."
+    },
+    "polloXLaPasta_data":{
+      "description" : "\"Pollo x la pasta\" is a single-player basic strategy game where DonRamón and Perchita face off against the most dangerous mobsters in all of Pollonkiland on a 9-tile board, with a single goal: \"DO A LINE\" WITH THE CHICKENS.",
+      "rol": "I worked as the sole programmer on this game, so I was fully responsible for all programming tasks, in addition to working closely with the artist and the designer."
     },
     "numbra_data":{
       "motor": "Unreal Engine 5",
@@ -120,6 +126,13 @@
       "math2":"To construct these piecewise curves, we use segments defined by 4 points each. The first and fourth points, the explicit control points, are the points from which the curve will pass and are also shared between neighbouring intervals. The second and third points, the implicit control points, serve to modify the shape of the curve.",
       "math3":"However, a problem with using piecewise curves is that continuity is not guaranteed between each interval, which would defeat the whole purpose of this project. Fortunately, this has an easy solution, as having the last and first control points of neighboring intervals being collinear guarantees continuity. By enforcing this rule, we will have the full curve have no discontinuities at with the small tradeoff of reducing flexibility when editing the curve, as now each point modifies two intervals instead of one. This approach balances flexibility and stability, giving us smooth curves that are easy to edit."
     },
+    "networking_data":{
+      "title": "This was the final project for my networking class of CS260. The objective was, given a simple sigleplayer asteroid destroying game, make it a 4 players multiplayer game using LAN connection. Using a Client-Server aproach with UDP only, the game had to be fully synchronized across all 4 clients, like player positions, highscore, asteroid data, bullets...",
+      "synchronization":"Achieving perfect synchronization",
+      "synchronization1":"",
+      "lag":"Introducing lag",
+      "lag1":""
+    },
     "contact_data":{
       "contact":"Contact",
       "name":"name",
@@ -144,6 +157,8 @@
     "games_info": {
       "juegos_estudiante": "Juegos de estudiante",
       "proyectos_estudiante" : "Proyectos de estudiante",
+      "juegos_profesionales": "Profesional",
+      "polloXLaPasta":"Un juego para un jugador de estrategia básica, basado en la serie animada de Cálico Electrónico sobre Don Ramon y Perchita.",
       "numbra":"Un juego 3D de puzles y exploración, en el cual viajaras por un misterioso mundo evitando ser visto por los varios enemigos que tratarán de cazarte.",
       "crashNBurn":"Un juego de carreras low poly con temáticas del espacio, con naves customizables con habilidades únicas, con las cuales molestar a tus rivales o conseguir ventajas propias.",
       "animaSilvarum":"Un juego de acción y exploración 2D, en un mundo lleno de colores, misterios y secretos enigmáticos.",
@@ -174,6 +189,10 @@
       "octubre":"de octubre",
       "noviembre":"de noviembre",
       "diciembre":"de diciembre"
+    },
+    "polloXLaPasta_data":{
+      "description" : "Pollo x la Pasta es un juego para un jugador de estrategia básica, donde DonRamón y Perchita se enfrentarán a los mafiosos más peligrosos de todo Pollonkiland en un tablero de 9 casillas con un solo objetivo: HACER RAYAS CON SUS POLLOS.",
+      "rol" : "Trabajé como el único programador en este juego, asi que fuí el encargado de todas las tareas de programación, además de colaborar estrechamente con el artista y el diseñador."
     },
     "animaSilvarum_data": {
       "motor": "2D programado desde cero en C++",
