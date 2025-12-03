@@ -10,7 +10,7 @@
       "name": "Alex Ceberio Hernandez",
       "subtitle": "RTIS programmer and Game Developer",
       "about": "About me",
-      "about_text": "Hi, my name is Alex. I'm a C++ programmer with a focus on game programming, tools development, and AI development for games. I graduated from DigiPen Institute of Technology Bilbao with a Bachelor's degree in Computer Science in Real-Time Interactive Simulations (RTIS).<br><br>In this page, you can explore the projects and games I’ve worked on."
+      "about_text": "Hi, my name is Alex. I'm a C++ programmer with a focus on game programming, tools development, and AI development for games. I graduated from DigiPen Institute of Technology Bilbao with a Bachelor's degree in Computer Science in Real-Time Interactive Simulations (RTIS).<br><br>In this page, you can explore the <a href=\"Projects.html\">projects</a> and <a href=\"Games.html\">games</a> I’ve worked on."
     },
     "games_info": {
       "juegos_estudiante": "Student games",
@@ -73,8 +73,7 @@
       "rol" :"I worked for this game at my third year at DigiPen, with the role of Gameplay programmer. The most relevant task I worked on where the following:",
       "rol1" :"Implemented the input event system for keyboard and mouse using SDL",
       "rol2" :"Created the editor using ImGui and ImGuizmo, implementing the basics of object creation and deletion, component management, scene creation and loading and more things.",
-      "rol3_1" :"Develped the AIs of the game, for which I used the ",
-      "rol3_2" : "algorithm entirely on my own."
+      "rol3" :"Develped the AIs of the game, for which I used the <a href=\"ContextBasedSteering.html\">Context Based Steering</a> algorithm entirely on my own."
     },
     "antSquad_data":{
       "motor": "2D engine provided by DigiPen",
@@ -101,8 +100,7 @@
       "description3_2" :"here"
     },
     "CBS_data":{
-      "title1":"As part of one of my student games, ",
-      "title2":", I was tasked with making the AI for the rivals you would race against, and the algorithm I chose to implement for this task is called Context Based Steering.",
+      "title":"As part of one of my student games,  <a href=\"CrashNBurn.html\">CrashNBurn</a>, I was tasked with making the AI for the rivals you would race against, and the algorithm I chose to implement for this task is called Context Based Steering.",
       "algorithm":"The algorithm",
       "algorithm1" :"Our first step is to define how our agent will get the \"Context\" part. For this, our agents (in my case, the rival racers) will have a list of rays all around its body. You can choose the amount of rays you see fit for your situation, but for my game, I chose 16 rays. These rays will represent the agent’s interests (the way to the goal),  as well as the way to detect dangers (walls, obstacles, other players...), and are what will define the context of the AI’s environment. With this, we can define how the agent will select in which direction to steer at any moment.",
       "algorithm2":"First, the interest will be read from where the agent is at the moment, I'll explain later how we find this value. Each ray is given a strenght value depending on how close it is to the interest ray. We then check for every ray if there's an obstacle within x distance of the agent, and we store this in each ray's data. By combining the interest and danger of each ray, we can discard the rays that have a danger, then sum the remaining rays and obtain our desired direction, pointing away from any obstacle.",
@@ -155,7 +153,7 @@
       "name": "Alex Ceberio Hernández",
       "subtitle": "Programador RTIS y Desarrollador de Juegos",
       "about": "Sobre mí",
-      "about_text": "Hola, me llamo Alex. Soy programador C++ con un enfoque en programación de videojuegos, desarrollo de herramientas y desarrollo de IA para juegos. Me gradué en DigiPen Institute of Technology Bilbao con el Grado en Informática en Simulaciones Interactivas en Tiempo Real (RTIS).<br><br>En esta página, puedes explorar los proyectos y videojuegos en los que he trabajado."
+      "about_text": "Hola, me llamo Alex. Soy programador C++ con un enfoque en programación de videojuegos, desarrollo de herramientas y desarrollo de IA para juegos. Me gradué en DigiPen Institute of Technology Bilbao con el Grado en Informática en Simulaciones Interactivas en Tiempo Real (RTIS).<br><br>En esta página, puedes explorar los <a href=\"Projects.html\">proyectos</a> y <a href=\"Games.html\">juegos</a> en los que he trabajado."
     },
     "games_info": {
       "juegos_estudiante": "Juegos de estudiante",
@@ -218,8 +216,7 @@
       "rol" :"Trabajé en este juego en mi tercer año en DigiPen como programador de Gameplay. Las tareas más relevantes en las que trabajé fueron las siguientes:",
       "rol1" :"Implementé el sistema de eventos de inputs para teclado y raton usando SDL.",
       "rol2" :"Creé el editor usando las librerías dee ImGui e ImGuizmo, implementando las herramientas básicas de creación y destrucción de objetos, controlador de componentes, creación y cargado de escenas y más cosas",
-      "rol3_1" :"Creé las IAs del juego, para lo cual implementé el algoritmo de",
-      "rol3_2" : " yo entero."
+      "rol3" :"Creé las IAs del juego, para lo cual implementé el algoritmo de <a href=\"ContextBasedSteering.html\">Context Based Steering</a> desde cero."
     },
     "antSquad_data":{
       "motor": "2D proporcionado por DigiPen",
@@ -246,8 +243,7 @@
       "description3_2" :"aqui"
     },
     "CBS_data": {
-    "title1": "Como parte de uno de mis juegos de estudiante, ",
-    "title2": ", me encargaron hacer la IA para los rivales contra los que competirías en la carrera, y el algoritmo que elegí implementar para esta tarea se llama Context Based Steering.",
+    "title": "Como parte de uno de mis juegos de estudiante, <a href=\"CrashNBurn.html\">CrashNBurn</a>, me encargaron hacer la IA para los rivales contra los que competirías en la carrera, y el algoritmo que elegí implementar para esta tarea se llama Context Based Steering.",
     "algorithm": "El algoritmo",
     "algorithm1": "Nuestro primer paso es definir cómo nuestro agente obtendrá la parte de \"Contexto\". Para esto, nuestros agentes (en mi caso, los corredores rivales) tendrán una lista de rayos alrededor de su cuerpo. Puedes elegir la cantidad de rayos que consideres adecuada para tu situación, pero para mi juego elegí 16 rayos. Estos rayos representarán los intereses del agente (el camino hacia la meta), así como la forma de detectar peligros (paredes, obstáculos, otros jugadores...), y son lo que definirá el contexto del entorno de la IA. Con esto, podemos definir cómo el agente seleccionará en qué dirección girar en cada momento.",
     "algorithm2": "Primero, se leerá el interés desde donde esté el agente en ese momento, luego explicaré cómo encontramos este valor. A cada rayo se le asigna un valor de fuerza dependiendo de qué tan cerca esté del rayo de interés. Luego verificamos para cada rayo si hay un obstáculo dentro de una distancia x del agente, y almacenamos esto en los datos de cada rayo. Combinando el interés y el peligro de cada rayo, podemos descartar los rayos que detecten un peligro, luego sumamos los rayos restantes y obtenemos nuestra dirección deseada, apuntando lejos de cualquier obstáculo.",
