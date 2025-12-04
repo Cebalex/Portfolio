@@ -27,14 +27,17 @@
     "details": {
       "fechaSalida": "Release date:",
       "tamañoEquipo": "Team Size:",
+      "tiempoDesarrollo":"Development time",
       "idioma": "Language:",
       "motor": "Engine:",
       "programadores": "programmers",
       "artistas": "artists",
       "descargar": "Download",
-      "rol": "My role"
+      "rol": "My role",
+      "experience":"My experience"
     },
     "meses":{
+      "meses":"months",
       "enero":"January",
       "febrero":"February",
       "marzo":"March",
@@ -91,13 +94,15 @@
       "rol3":"Made the UI of the player and menus."
     },
     "popThePops_data":{
-      "description": "A 2-player local versus 2.5D platformer (3D models with 2D gameplay mechanics), where you race to the goal while inside a bubble. It was made for 2025's Global Game Jam, made in less than 3 days, with the topic being \"Bubbles\", and it won the prize for the best user experience."
+      "description": "A 2-player local versus 2.5D platformer (3D models with 2D gameplay mechanics), where you race to the goal while inside a bubble. It was made for 2025's Global Game Jam, made in less than 3 days, with the topic being \"Bubbles\", and it won the prize for the best user experience.",
+      "experience_1":"This has been my first time taking part in a GameJam, in which I went with some friends from DigiPen.",
+      "experience_2":"Although I already suspected it before taking part, I was still surprised by how chaotic, fast, and exhausting it ended up being. There’s no time to think about the best way to solve problems or to build a solid design to iterate on. Decisions have to be made quickly and clearly. We chose Unity for the project because it was the only professional engine we had any experience with, since up to that point, we had only programmed games using engines we built ourselves. Not that this made development any easier, as my experience with Unity was minimal, and I had to learn from scratch how to use certain tools, like adding animations and 3D models or the controller input system.",
+      "experience_3":"I don’t want any of this to sound like a complaint; on the contrary, I had a great time. I feel like I learned a lot from the experience, and I’m quite satisfied with our result. We’ll see how the next GameJam treats us."
     },
     "GOAP_data":{
       "description1":"Goal-Oriented-Action-Planning (GOAP for short) is a declarative game AI architecture created by Jeff Orkin for the game F.E.A.R, designed for real-time control of autonomous character behavior in games. Compared with simpler architectures such as State Machines or Behaviour Trees, GOAP provides far better code scalability and flexibility while on development, avoiding the labyrinthic transitions that can end up being generated. This architecture gives game characters the ability to select goals and make plans to achieve those goals based on the state of the environment and available resources.",
       "description2":"This was the topic I chose for the final project of CS380 (a course focused on AI development for videogames), where I researched the algorithm and made a demo implementing the algorithm, written in C++ from scratch. The demo has 3 different agents (a rabbit, wolf and bear), where each will try to survive by escaping, searching food or fighting, and satisfy their goals.",
-      "description3_1":"You can download the reseach paper ",
-      "description3_2" :"here"
+      "description3":"You can download the reseach paper <a href=\"assets/380_GOAP-ResearchPaper.pdf\">here</a>."
     },
     "CBS_data":{
       "title":"As part of one of my student games,  <a href=\"CrashNBurn.html\">CrashNBurn</a>, I was tasked with making the AI for the rivals you would race against, and the algorithm I chose to implement for this task is called Context Based Steering.",
@@ -169,15 +174,18 @@
     },
     "details": {
       "fechaSalida": "Fecha de salida:",
+      "tiempoDesarrollo":"Tiempo de desarrollo",
       "tamañoEquipo": "Tamaño del equipo:",
       "idioma": "Idioma:",
       "motor": "Motor:",
       "programadores": "programadores",
       "artistas": "artistas",
       "descargar": "Descargar",
-      "rol": "Mi rol"
+      "rol": "Mi rol",
+      "experience": "Mi experiencia"
     },
     "meses":{
+      "meses":"meses",
       "enero":"de enero",
       "febrero":"de febrero",
       "marzo":"de marzo",
@@ -234,13 +242,15 @@
       "rol3":"Creé el UI del player y los menus."
     },
     "popThePops_data":{
-      "description": "Un juego de plataformas 2.5D (modelos 3D con mecánicas de juego en 2D) para 2 jugadores en modo local, donde compites por llegar a la meta mientras estás dentro de una burbuja. Fue desarrollado para la Global Game Jam 2025 en menos de 3 días, con la temática \"Burbujas\", y ganó el premio a la mejor experiencia de usuario."
+      "description": "Un juego de plataformas 2.5D (modelos 3D con mecánicas de juego en 2D) para 2 jugadores en modo local, donde compites por llegar a la meta mientras estás dentro de una burbuja. Fue desarrollado para la Global Game Jam 2025 en menos de 3 días, con la temática \"Burbujas\", y ganó el premio a la mejor experiencia de usuario.",
+      "experience_1":"Esta ha sido mi primera experiencia en una game jam, en la que participé con varios amigos de DigiPen.",
+      "experience_2":"Aunque ya me lo imaginaba antes de participar, me sorprendió lo caótico, rápido y agotador que terminó siendo. No hay tiempo para ponerte a pensar en la mejor manera de solucionar problemas o en tener un diseño sólido sobre el que iterar; las decisiones tienen que ser tomadas rápidas y claramente. Elegimos Unity para el proyecto, ya que era el único motor profesional con el que teníamos algo de experiencia, ya que hasta ese momento solo habíamos programado juegos en motores hechos por nosotros. Tampoco es que eso hiciera el desarrollo más fácil, mi experiencia con Unity era mínima, y tuve que aprender desde cero a usar ciertas herramientas como añadir animaciones y modelos en 3D o el sistema de input con mando.",
+      "experience_3":"Que todo esto no suene como una queja; al revés, me lo pasé genial, siento que aprendí mucho de esta experiencia y estoy bastante satisfecho con nuestro resultado. Ya se verá cómo nos tratará la siguiente game jam,."
     },
     "GOAP_data":{
       "description1":"Goal-Oriented-Action-Planning (GOAP, por sus siglas en inglés) es una arquitectura de IA declarativa para juegos creada por Jeff Orkin para el juego F.E.A.R, diseñada para el control en tiempo real del comportamiento autónomo de los personajes en los juegos. Comparada con arquitecturas más simples, como las Máquinas de Estados o los Behaviour Trees, GOAP ofrece una escalabilidad y flexibilidad de código mucho mayores durante el desarrollo, evitando las transiciones laberínticas que podrían generarse. Esta arquitectura permite a los personajes del juego seleccionar objetivos y elaborar planes para alcanzarlos en función del estado del entorno y los recursos disponibles.",
       "description2":"Este fue el tema que elegí para el proyecto final de CS380 (un curso enfocado en el desarrollo de IA para videojuegos), donde investigué el algoritmo y creé una demo implementándolo desde cero en C++. La demo tiene 3 agentes diferentes (un conejo, un lobo y un oso), donde cada uno intentará sobrevivir escapando, buscando comida o luchando, y cumplir sus objetivos.",
-      "description3_1":"Puedes descargar el documento de investigación ",
-      "description3_2" :"aqui"
+      "description3":"Puedes descargar el documento de investigación <a href=\"assets/380_GOAP-ResearchPaper.pdf\">aqui</a>."
     },
     "CBS_data": {
     "title": "Como parte de uno de mis juegos de estudiante, <a href=\"CrashNBurn.html\">CrashNBurn</a>, me encargaron hacer la IA para los rivales contra los que competirías en la carrera, y el algoritmo que elegí implementar para esta tarea se llama Context Based Steering.",
