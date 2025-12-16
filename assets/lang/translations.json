@@ -140,12 +140,15 @@
       "lag3":"It's necessary to point out, however, that while this method works, the more unreliable the network is, the lower the framerate becomes, since we are literally freezing the game. For our small, LAN based connection and very small packets, Lockstep is more than enough, but any more than that, other algorithms should be implemented instead."
     },
     "contact_data":{
-      "contact":"Contact",
+      "contact":"Contact info",
       "name":"name",
       "comments":"Additional Comments",
       "send":"Send message",
-      "clear":"clear"
+      "clear":"clear",
+      "message":"Feel free to send me a message here: <a href=\"mailto:ceberio.alex@gmail.com?Subject=Hey!\" target=\"_blank\">ceberio.alex@gmail.com</a> , or you can check my socials too."
     }
+
+    
   },
   "es": {
     "nav": {
@@ -292,7 +295,8 @@
       "name":"nombre",
       "comments":"Comentarios adicionales",
       "send":"Enviar mensaje",
-      "clear":"Limpiar"
+      "clear":"Limpiar",
+      "message":"Puedes mandarme un mensaje al siguiente gmail: <a href=\"mailto:ceberio.alex@gmail.com?Subject=Hey!\" target=\"_blank\">ceberio.alex@gmail.com</a> , o mirar mis redes sociales."
     }
 
 

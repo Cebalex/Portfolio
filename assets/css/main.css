@@ -2541,11 +2541,50 @@ input, select, textarea {
 	#main {
 		background: #fff;
 		border-top: solid 5px #b1ddab;
-		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
 		padding: 3em 0 4em 0;
 	}
+
+/* Contact */
+
+	#contact {
+		background: #1f1f1f;
+		border-bottom: solid 5px #c1cac5;
+		border-top-width: 35px;
+		border-bottom-width: 10px;
+		padding: 2em 0 4em 0;
+	}
+
+	#contact header {
+  		text-align: center;
+	}
+
+	#contact h2 {
+ 		font-size: 1.8rem;   /* adjust size as needed */
+ 		color: rgb(225, 225, 225);
+	}
+
+	#contact div{
+		color: rgb(225, 225, 225);
+	}
+
+
+/* Icons */
+.social-icons {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  gap: 2rem;               /* space between icons */
+}
+
+.social-icons a {
+  font-size: 3rem;         /* makes icons bigger */
+  color: white;            /* icon color */
+}
+
+.social-icons a:hover {
+  color: #0a66c2;          /* optional hover color */
+}
 
 /* Sidebar + Content */
 
