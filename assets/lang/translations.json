@@ -10,7 +10,8 @@
       "name": "Alex Ceberio Hernandez",
       "subtitle": "RTIS programmer and Game Developer",
       "about": "About me",
-      "about_text": "Hi, my name is Alex. I'm a C++ programmer with a focus on game programming, tools development, and AI development for games. I graduated from DigiPen Institute of Technology Bilbao with a Bachelor's degree in Computer Science in Real-Time Interactive Simulations (RTIS).<br><br>In this page, you can explore the <a href=\"Projects.html\">projects</a> and <a href=\"Games.html\">games</a> I’ve worked on."
+      "about_text": "Hi, my name is Alex. I'm a C++ programmer with a focus on game programming, tools development, and AI development for games. I graduated from DigiPen Institute of Technology Bilbao with a Bachelor's degree in Computer Science in Real-Time Interactive Simulations (RTIS).<br><br>In this page, you can explore the <a href=\"Projects.html\">projects</a> and <a href=\"Games.html\">games</a> I’ve worked on.",
+      "featured":"Featured projects"
     },
     "games_info": {
       "juegos_estudiante": "Student games",
@@ -166,6 +167,7 @@
       "name": "Alex Ceberio Hernández",
       "subtitle": "Programador RTIS y Desarrollador de Juegos",
       "about": "Sobre mí",
+      "featured":"Proyectos destacados",
       "about_text": "Hola, me llamo Alex. Soy programador C++ con un enfoque en programación de videojuegos, desarrollo de herramientas y desarrollo de IA para juegos. Me gradué en DigiPen Institute of Technology Bilbao con el Grado en Informática en Simulaciones Interactivas en Tiempo Real (RTIS).<br><br>En esta página, puedes explorar los <a href=\"Projects.html\">proyectos</a> y <a href=\"Games.html\">juegos</a> en los que he trabajado."
     },
     "games_info": {
